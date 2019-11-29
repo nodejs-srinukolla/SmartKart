@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b8479bff-0b1e-446e-8050-9d9cb773ddc7": {
+        "id": "b8479bff-0b1e-446e-8050-9d9cb773ddc7",
+        "parent": null,
+        "name": "SmartKart",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7c43f055-cc96-42cc-8181-6b357b0233a7"
+        ],
+        "isRemovable": false,
+        "filePath": "SmartKart"
+      },
+      "7c43f055-cc96-42cc-8181-6b357b0233a7": {
+        "id": "7c43f055-cc96-42cc-8181-6b357b0233a7",
+        "parent": "b8479bff-0b1e-446e-8050-9d9cb773ddc7",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SmartKart/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "b8479bff-0b1e-446e-8050-9d9cb773ddc7",
+    "openFiles": [
+      "7c43f055-cc96-42cc-8181-6b357b0233a7"
+    ],
+    "currentFileId": "7c43f055-cc96-42cc-8181-6b357b0233a7",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SmartKart",
+    "projectDescription": "test",
+    "projectVersion": "0.0.1",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1575009503462
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SmartKart",
+      "url": "https://github.com/nodejs-srinukolla/SmartKart"
+    }
+  }
+}
